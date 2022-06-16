@@ -34,7 +34,8 @@ width: 90%;
 border: none; 
 outline: none; 
 background: transparent; 
-color: #fff; 
+color: #fff;
+font-size: 1rem;
 } 
 ::placeholder {
   color: white;
