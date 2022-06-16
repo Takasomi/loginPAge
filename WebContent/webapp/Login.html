@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+<body>
+<html>
+<head> 
+<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+$("button").click(function(){}) 
+} 
+</script> 
+<title>hide/Show password</title> 
+<link rel="stylesheet" href="style.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head> 
+<body> 
+<div class ="form-box"> 
+<h1>Login</h1> 
+<div class="input-box"> 
+<i class="fa-solid fa-envelope"></i> 
+<input type="email" placeholder="Enter your Email"> 
+</div> 
+ 
+<div class="input-box"> 
+<i class="fa-solid fa-key"></i> 
+<input type="password" id="input1" placeholder="Enter your Password"> 
+<span class="eye" onclick="myFunction()"> 
+<i id="e1" class="fa-solid fa-eye"></i> 
+<i id="e2" class="fa-solid fa-eye-slash"></i> 
+</span> 
+</div> 
+<button type="button" class="login1">Login</button> 
+</div> 
+<script> 
+function myFunction(){ 
+var a= document.getElementById("input1"); 
+var b= document.getElementById("e1"); 
+var c= document.getElementById("e2"); 
+if (a.type === 'password'){ 
+a.type="text"; 
+b.style.display="block"; 
+c.style.display="none"; 
+}else{ 
+a.type="password"; 
+b.style.display="none"; 
+c.style.display="block"; 
+} 
+} 
+</script> 
+</body> 
+</html>
+</body>
+</html>
